@@ -6,11 +6,11 @@ export const data = [
         options: [
             {
                 id: "a",
-                text: "Kanpur"
+                text: "Bengaluru"
             },
             {
                 id: "b",
-                text: "Lucknow"
+                text: "Chenni"
             },
             {
                 id: "c",
@@ -21,7 +21,7 @@ export const data = [
                 text: "New Delhi"
             }
         ],
-
+        attempted: false,
         correct: "d"
     },
     {
@@ -39,14 +39,14 @@ export const data = [
             },
             {
                 id: "c",
-                text: "Mumbai"
+                text: "Varanasi"
             },
             {
                 id: "d",
-                text: "New Delhi"
+                text: "Prayagraj"
             }
         ],
-
+        attempted: false,
         correct: "b"
     },
     {
@@ -56,11 +56,11 @@ export const data = [
         options: [
             {
                 id: "a",
-                text: "Kanpur"
+                text: "Pune"
             },
             {
                 id: "b",
-                text: "Lucknow"
+                text: "Nagpur"
             },
             {
                 id: "c",
@@ -68,10 +68,10 @@ export const data = [
             },
             {
                 id: "d",
-                text: "New Delhi"
+                text: "Hyderabad"
             }
         ],
-
+        attempted: false,
         correct: "c"
     }
 ]
