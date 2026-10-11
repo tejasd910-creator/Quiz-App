@@ -72,7 +72,7 @@ function App() {
   return (
     <>
       {!allAttempted ? (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 p-5">
+        <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-indigo-500 to-purple-600 p-5">
           <div className="w-full max-w-lg bg-white rounded-3xl shadow-2xl p-8">
 
             <Question question={data[question].question} />
@@ -114,7 +114,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-400 to-blue-600">
+        <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-green-400 to-blue-600">
           <div className="bg-white rounded-3xl shadow-2xl p-12 text-center">
             <h1 className="text-5xl font-bold text-gray-800 mb-6">
               Quiz Completed 🎉
